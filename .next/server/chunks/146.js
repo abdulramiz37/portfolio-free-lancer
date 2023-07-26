@@ -680,6 +680,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_blogs_Blogs4_blogs4__WEBPACK_IMPORTED_MODULE_7__]);
 _components_blogs_Blogs4_blogs4__WEBPACK_IMPORTED_MODULE_7__ = (__webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__)[0];
+/* eslint-disable @next/next/no-sync-scripts */
 
 
 
@@ -687,7 +688,7 @@ _components_blogs_Blogs4_blogs4__WEBPACK_IMPORTED_MODULE_7__ = (__webpack_async_
 
 
 
- // import Portfolio from "../../components/Portfolio/portfolio";
+ // import Ptfolio from "../../components/Portfolio/portfolio";
 // import FullTestimonials from "../../components/Full-testimonials/full-testimonials";
 // import Team2 from "../../components/Team2/team2";
 
@@ -700,11 +701,11 @@ _components_blogs_Blogs4_blogs4__WEBPACK_IMPORTED_MODULE_7__ = (__webpack_async_
 
 
 
-const Homepage2 = () => {
+const Contact = () => {
   const navbarRef = react__WEBPACK_IMPORTED_MODULE_0___default().useRef(null);
   const logoRef = react__WEBPACK_IMPORTED_MODULE_0___default().useRef(null);
   react__WEBPACK_IMPORTED_MODULE_0___default().useEffect(() => {
-    document.querySelector("body").classList.add("home");
+    document.querySelector("body").classList.add("contact-page");
     var navbar = navbarRef.current,
         logo = logoRef.current;
 
@@ -722,7 +723,7 @@ const Homepage2 = () => {
       }
     });
     return () => {
-      document.querySelector("body").classList.remove("home");
+      document.querySelector("body").classList.remove("contact-page");
     };
   }, [navbarRef]);
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)(_layouts_Dark__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
@@ -737,7 +738,7 @@ const Homepage2 = () => {
   });
 };
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Homepage2);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Contact);
 });
 
 /***/ })

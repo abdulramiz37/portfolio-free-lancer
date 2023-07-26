@@ -10,6 +10,5 @@
   "/get-quotation/getquote": "pages/get-quotation/getquote.html",
   "/homepage/home": "pages/homepage/home.html",
   "/": "pages/index.html",
-  "/showcase/showcase-dark": "pages/showcase/showcase-dark.html",
   "/_error": "pages/_error.js"
 }

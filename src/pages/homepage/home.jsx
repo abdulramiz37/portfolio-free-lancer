@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-sync-scripts */
+import React from "react";
 import Navbar from "../../components/Navbar/navbar";
 import Intro2 from "../../components/Intro2/intro2";
 import Services from "../../components/Services/services";
@@ -6,7 +7,7 @@ import Services from "../../components/Services/services";
 import CallToAction from "../../components/Call-to-action/call-to-action";
 import Footer from "../../components/Footer/footer";
 import DarkTheme from "../../layouts/Dark";
-// import Portfolio from "../../components/Portfolio/portfolio";
+// import Ptfolio from "../../components/Portfolio/portfolio";
 // import FullTestimonials from "../../components/Full-testimonials/full-testimonials";
 // import Team2 from "../../components/Team2/team2";
 import Blogs4 from "../../components/blogs/Blogs4/blogs4";
