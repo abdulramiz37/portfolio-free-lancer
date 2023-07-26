@@ -704,7 +704,9 @@ const Homepage2 = () => {
   const navbarRef = react__WEBPACK_IMPORTED_MODULE_0___default().useRef(null);
   const logoRef = react__WEBPACK_IMPORTED_MODULE_0___default().useRef(null);
   react__WEBPACK_IMPORTED_MODULE_0___default().useEffect(() => {
-    var navbar = navbarRef.current;
+    document.querySelector("body").classList.add("home");
+    var navbar = navbarRef.current,
+        logo = logoRef.current;
 
     if (window.pageYOffset > 300) {
       navbar.classList.add("nav-scroll");
@@ -719,6 +721,9 @@ const Homepage2 = () => {
         navbar.classList.remove("nav-scroll");
       }
     });
+    return () => {
+      document.querySelector("body").classList.remove("home");
+    };
   }, [navbarRef]);
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)(_layouts_Dark__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
     children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx(_components_Navbar_navbar__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {

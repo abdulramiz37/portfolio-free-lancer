@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable @next/next/no-sync-scripts */
 import Navbar from "../../components/Navbar/navbar";
 import Intro2 from "../../components/Intro2/intro2";
 import Services from "../../components/Services/services";
@@ -15,12 +15,16 @@ import Blogs2 from "../../components/blogs/Blogs2/blogs2";
 import Clients from "../../components/Clients/clients";
 // import Intro5 from "../../components/Intro5/intro5";
 // import FreelancreIntro from "../../components/Freelancre-intro/freelancre-intro";
-const Homepage2 = () => {
+
+const Contact = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
   React.useEffect(() => {
-    var navbar = navbarRef.current;
+    document.querySelector("body").classList.add("contact-page");
+
+    var navbar = navbarRef.current,
+      logo = logoRef.current;
     if (window.pageYOffset > 300) {
       navbar.classList.add("nav-scroll");
     } else {
@@ -33,21 +37,25 @@ const Homepage2 = () => {
         navbar.classList.remove("nav-scroll");
       }
     });
+    return () => {
+      document.querySelector("body").classList.remove("contact-page");
+    };
   }, [navbarRef]);
+
   return (
     <DarkTheme>
-      <Navbar nr={navbarRef} lr={logoRef} />
-      <Intro2 />
-      <Services style="4item" />
-      {/* <Portfolio grid={3} filterPosition="center" /> */}
-      <Clients theme="dark" />
-      {/* <FreelancreIntro /> */}
-      <Blogs4/>
-      <Blogs2 />
-      <CallToAction />
-      <Footer />
-    </DarkTheme>
+    <Navbar nr={navbarRef} lr={logoRef} />
+    <Intro2 />
+    <Services style="4item" />
+    {/* <Portfolio grid={3} filterPosition="center" /> */}
+    <Clients theme="dark" />
+    {/* <FreelancreIntro /> */}
+    <Blogs4/>
+    <Blogs2 />
+    <CallToAction />
+    <Footer />
+  </DarkTheme>
   );
 };
 
-export default Homepage2;
+export default Contact;
