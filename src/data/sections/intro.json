@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Gear Up You Business with Macnet",
+        "content": "We are a team of designers who specialize in developing websites and apps that can help you achieve your business goals.",
+        "image": "/img/slid/02.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Digital Design Awards",
+        "content": "If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.",
+        "image": "/img/slid/03.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Business value through digital products",
+        "content": "",
+        "image": "/img/slid/01.jpg"
+    }
+]

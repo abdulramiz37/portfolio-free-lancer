@@ -1,0 +1,15 @@
+{
+  "/404": "pages/404.html",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/about/about": "pages/about/about.html",
+  "/apply-for-podition/apply": "pages/apply-for-podition/apply.html",
+  "/blog/blog": "pages/blog/blog.html",
+  "/career/careers": "pages/career/careers.html",
+  "/contact/contact": "pages/contact/contact.html",
+  "/get-quotation/getquote": "pages/get-quotation/getquote.html",
+  "/homepage/home": "pages/homepage/home.html",
+  "/": "pages/index.html",
+  "/showcase/showcase-dark": "pages/showcase/showcase-dark.html",
+  "/_error": "pages/_error.js"
+}

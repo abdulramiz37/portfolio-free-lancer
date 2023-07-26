@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "title": "Nginx vs Apache: Which Is the Best Web Server?",
+    "content": "In other words, the people who created and manage WordPress believe that people should have access to a platform where they can publish the things that matter to them—in the way they choose to do it.",
+    "image": "/img/blog/b1.jpg",
+    "tags": ["By Tom Rankin", "Web Server"],
+    "date": {
+      "day": "15",
+      "month": "August 2022"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Mongo db, maria db, sql which should you consider for your site.",
+    "content": "While there are lots of different types of server software, you’ll often whittle the contenders down to Nginx vs Apache. This is because both offer top performance for many different server configurations, and suit certain applications better than the other.",
+    "image": "/img/blog/b2.jpg",
+    "tags": ["By Atman Rathod", "", "Database"],
+    "date": {
+      "day": "21",
+      "month": "June 2022"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Pern Stake Vs Lamp Stake Which Is Best In 2022.",
+    "content": "n other words, the people who created and manage WordPress believe that people should have access to a platform where they can publish the things that matter to them—in the way they choose to do it.",
+    "image": "/img/blog/b3.jpg",
+    "tags": ["By Ayaz Momin", "Web Technologist"],
+    "date": {
+      "day": "04",
+      "month": "July 2022"
+    }
+  }
+
+]
