@@ -40,11 +40,6 @@
         "lightImage": "/img/clients/brands/light/07.png",
         "darkImage": "/img/clients/brands/dark/07.png",
         "url": "www.MacNET.com"
-    },
-    {
-        "id": 8,
-        "lightImage": "/img/clients/brands/light/08.png",
-        "darkImage": "/img/clients/brands/dark/08.png",
-        "url": "www.MacNET.com"
     }
+ 
 ]

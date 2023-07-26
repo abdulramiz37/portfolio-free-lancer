@@ -138,21 +138,15 @@ __webpack_require__.d(__webpack_exports__, {
   "Z": () => (/* binding */ clients)
 });
 
-// EXTERNAL MODULE: external "styled-jsx/style"
-var style_ = __webpack_require__(9816);
-var style_default = /*#__PURE__*/__webpack_require__.n(style_);
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(6689);
 ;// CONCATENATED MODULE: ./src/data/sections/clients.json
-const clients_namespaceObject = JSON.parse('[{"id":1,"lightImage":"/img/clients/brands/light/01.png","darkImage":"/img/clients/brands/dark/01.png","url":"www.MacNET.com"},{"id":2,"lightImage":"/img/clients/brands/light/02.png","darkImage":"/img/clients/brands/dark/02.png","url":"www.MacNET.com"},{"id":3,"lightImage":"/img/clients/brands/light/03.png","darkImage":"/img/clients/brands/dark/03.png","url":"www.MacNET.com"},{"id":4,"lightImage":"/img/clients/brands/light/04.png","darkImage":"/img/clients/brands/dark/04.png","url":"www.MacNET.com"},{"id":5,"lightImage":"/img/clients/brands/light/05.png","darkImage":"/img/clients/brands/dark/05.png","url":"www.MacNET.com"},{"id":6,"lightImage":"/img/clients/brands/light/06.png","darkImage":"/img/clients/brands/dark/06.png","url":"www.MacNET.com"},{"id":7,"lightImage":"/img/clients/brands/light/07.png","darkImage":"/img/clients/brands/dark/07.png","url":"www.MacNET.com"},{"id":8,"lightImage":"/img/clients/brands/light/08.png","darkImage":"/img/clients/brands/dark/08.png","url":"www.MacNET.com"}]');
+const clients_namespaceObject = JSON.parse('[{"id":1,"lightImage":"/img/clients/brands/light/01.png","darkImage":"/img/clients/brands/dark/01.png","url":"www.MacNET.com"},{"id":2,"lightImage":"/img/clients/brands/light/02.png","darkImage":"/img/clients/brands/dark/02.png","url":"www.MacNET.com"},{"id":3,"lightImage":"/img/clients/brands/light/03.png","darkImage":"/img/clients/brands/dark/03.png","url":"www.MacNET.com"},{"id":4,"lightImage":"/img/clients/brands/light/04.png","darkImage":"/img/clients/brands/dark/04.png","url":"www.MacNET.com"},{"id":5,"lightImage":"/img/clients/brands/light/05.png","darkImage":"/img/clients/brands/dark/05.png","url":"www.MacNET.com"},{"id":6,"lightImage":"/img/clients/brands/light/06.png","darkImage":"/img/clients/brands/dark/06.png","url":"www.MacNET.com"},{"id":7,"lightImage":"/img/clients/brands/light/07.png","darkImage":"/img/clients/brands/dark/07.png","url":"www.MacNET.com"}]');
 // EXTERNAL MODULE: ./src/components/Split/index.jsx
 var Split = __webpack_require__(1514);
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
 ;// CONCATENATED MODULE: ./src/components/Clients/clients.jsx
-
-
-/* eslint-disable @next/next/no-img-element */
 
 
 
@@ -162,98 +156,62 @@ var jsx_runtime_ = __webpack_require__(997);
 const Clients = ({
   theme
 }) => {
-  var first = clients_namespaceObject.slice(0, clients_namespaceObject.length / 2);
-  var second = clients_namespaceObject.slice(4, clients_namespaceObject.length);
-  return /*#__PURE__*/(0,jsx_runtime_.jsxs)("section", {
-    className: "jsx-1288412544" + " " + "clients section-padding",
-    children: [/*#__PURE__*/jsx_runtime_.jsx("div", {
-      className: "jsx-1288412544" + " " + "container",
+  const clientsToShow = clients_namespaceObject.slice(0, 7);
+  return /*#__PURE__*/jsx_runtime_.jsx("section", {
+    className: "clients section-padding",
+    children: /*#__PURE__*/jsx_runtime_.jsx("div", {
+      className: "container",
       children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
-        className: "jsx-1288412544" + " " + "row",
+        className: "row",
         children: [/*#__PURE__*/jsx_runtime_.jsx("div", {
-          className: "jsx-1288412544" + " " + "col-lg-4 valign md-mb50",
+          className: "col-lg-4 valign md-mb50",
           children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
-            className: "jsx-1288412544" + " " + "sec-head mb-0",
+            className: "sec-head mb-0",
             children: [/*#__PURE__*/jsx_runtime_.jsx("h6", {
+              className: "wow fadeIn",
               "data-wow-delay": ".5s",
-              className: "jsx-1288412544" + " " + "wow fadeIn",
               children: "OUR CLIENTS"
             }), /*#__PURE__*/jsx_runtime_.jsx("h3", {
-              className: "jsx-1288412544" + " " + "wow mb-20 color-font",
-              children: "Suportive \uD83D\uDE42 Partners"
+              className: "wow mb-20 color-font",
+              children: "Supportive \uD83D\uDE42 Partners"
             }), /*#__PURE__*/jsx_runtime_.jsx("p", {
-              className: "jsx-1288412544",
               children: "Our area of practice is quite wide: design, graphics, branding, development."
             })]
           })
         }), /*#__PURE__*/jsx_runtime_.jsx("div", {
-          className: "jsx-1288412544" + " " + "col-lg-8",
-          children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
-            className: "jsx-1288412544",
-            children: [/*#__PURE__*/jsx_runtime_.jsx("div", {
-              className: "jsx-1288412544" + " " + "row bord",
-              children: first.map(item => /*#__PURE__*/jsx_runtime_.jsx("div", {
-                className: "jsx-1288412544" + " " + "col-md-3 col-6 brands",
+          className: "col-lg-8",
+          children: /*#__PURE__*/jsx_runtime_.jsx("div", {
+            children: /*#__PURE__*/jsx_runtime_.jsx("div", {
+              className: "row bord",
+              children: clientsToShow.map(item => /*#__PURE__*/jsx_runtime_.jsx("div", {
+                className: "col-md-3 col-6 brands",
                 children: /*#__PURE__*/jsx_runtime_.jsx("div", {
+                  className: "item wow fadeIn",
                   "data-wow-delay": `${item.id == 1 ? ".3" : item.id == 2 ? ".6" : item.id == 3 ? ".8" : item.id == 4 ? ".3" : ""}s`,
-                  className: "jsx-1288412544" + " " + "item wow fadeIn",
                   children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
-                    className: "jsx-1288412544" + " " + "img",
+                    className: "img",
                     children: [theme === "light" ? /*#__PURE__*/jsx_runtime_.jsx("img", {
                       src: item.lightImage,
-                      alt: "",
-                      className: "jsx-1288412544"
+                      alt: ""
                     }) : /*#__PURE__*/jsx_runtime_.jsx("img", {
                       src: item.darkImage,
-                      alt: "",
-                      className: "jsx-1288412544" + " " + "imgfont"
+                      alt: ""
                     }), /*#__PURE__*/jsx_runtime_.jsx(Split/* default */.Z, {
                       children: /*#__PURE__*/jsx_runtime_.jsx("a", {
                         href: "#0",
+                        className: "link words chars splitting",
                         "data-splitting": true,
-                        className: "jsx-1288412544" + " " + "link words chars splitting",
                         children: item.url
                       })
                     })]
                   })
                 })
               }, item.id))
-            }), /*#__PURE__*/jsx_runtime_.jsx("div", {
-              className: "jsx-1288412544" + " " + "row",
-              children: second.map(item => /*#__PURE__*/jsx_runtime_.jsx("div", {
-                className: "jsx-1288412544" + " " + `${item.id == 5 ? "col-md-3 col-6 brands sm-mb30" : item.id == 6 ? "col-md-3 col-6 brands sm-mb30" : item.id == 7 ? "col-md-3 col-6 brands" : item.id == 8 ? "col-md-3 col-6 brands" : ""}`,
-                children: /*#__PURE__*/jsx_runtime_.jsx("div", {
-                  "data-wow-delay": `${item.id == 1 ? ".4" : item.id == 2 ? ".7" : item.id == 3 ? ".5" : item.id == 4 ? ".3" : ""}s`,
-                  className: "jsx-1288412544" + " " + "item wow fadeIn",
-                  children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
-                    className: "jsx-1288412544" + " " + "img",
-                    children: [theme === "light" ? /*#__PURE__*/jsx_runtime_.jsx("img", {
-                      src: item.lightImage,
-                      alt: "",
-                      className: "jsx-1288412544"
-                    }) : /*#__PURE__*/jsx_runtime_.jsx("img", {
-                      src: item.darkImage,
-                      alt: "",
-                      className: "jsx-1288412544" + " " + "imgfont"
-                    }), /*#__PURE__*/jsx_runtime_.jsx(Split/* default */.Z, {
-                      children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                        href: "#0",
-                        "data-splitting": true,
-                        className: "jsx-1288412544" + " " + "link words chars splitting",
-                        children: item.url
-                      })
-                    })]
-                  })
-                })
-              }, item.id))
-            })]
+            })
           })
         })]
       })
-    }), /*#__PURE__*/jsx_runtime_.jsx((style_default()), {
-      id: "1288412544",
-      children: [".imgfont.jsx-1288412544{height:100px;width:1500px;}"]
-    })]
+    })
   });
 };
 

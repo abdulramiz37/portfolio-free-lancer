@@ -1,11 +1,9 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import ClientsData from "../../data/sections/clients.json";
 import Split from "../Split";
 
 const Clients = ({ theme }) => {
-  var first = ClientsData.slice(0, ClientsData.length / 2);
-  var second = ClientsData.slice(4, ClientsData.length);
+  const clientsToShow = ClientsData.slice(0, 7);
 
   return (
     <section className="clients section-padding">
@@ -14,9 +12,9 @@ const Clients = ({ theme }) => {
           <div className="col-lg-4 valign md-mb50">
             <div className="sec-head mb-0">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-              OUR CLIENTS
+                OUR CLIENTS
               </h6>
-              <h3 className="wow mb-20 color-font">Suportive 🙂 Partners</h3>
+              <h3 className="wow mb-20 color-font">Supportive 🙂 Partners</h3>
               <p>
                 Our area of practice is quite wide: design, graphics, branding,
                 development.
@@ -26,8 +24,11 @@ const Clients = ({ theme }) => {
           <div className="col-lg-8">
             <div>
               <div className="row bord">
-                {first.map((item) => (
-                  <div key={item.id} className="col-md-3 col-6 brands">
+                {clientsToShow.map((item) => (
+                  <div
+                    key={item.id}
+                    className="col-md-3 col-6 brands"
+                  >
                     <div
                       className="item wow fadeIn"
                       data-wow-delay={`${
@@ -46,57 +47,7 @@ const Clients = ({ theme }) => {
                         {theme === "light" ? (
                           <img src={item.lightImage} alt="" />
                         ) : (
-                          <img className="imgfont" src={item.darkImage} alt="" />
-                        )}
-                        <Split>
-                          <a
-                            href="#0"
-                            className="link words chars splitting"
-                            data-splitting
-                          >
-                            {item.url}
-                          </a>
-                        </Split>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <div className="row">
-                {second.map((item) => (
-                  <div
-                    key={item.id}
-                    className={`${
-                      item.id == 5
-                        ? "col-md-3 col-6 brands sm-mb30"
-                        : item.id == 6
-                        ? "col-md-3 col-6 brands sm-mb30"
-                        : item.id == 7
-                        ? "col-md-3 col-6 brands"
-                        : item.id == 8
-                        ? "col-md-3 col-6 brands"
-                        : ""
-                    }`}
-                  >
-                    <div
-                      className="item wow fadeIn"
-                      data-wow-delay={`${
-                        item.id == 1
-                          ? ".4"
-                          : item.id == 2
-                          ? ".7"
-                          : item.id == 3
-                          ? ".5"
-                          : item.id == 4
-                          ? ".3"
-                          : ""
-                      }s`}
-                    >
-                      <div className="img">
-                        {theme === "light" ? (
-                          <img  src={item.lightImage} alt="" />
-                        ) : (
-                          <img className="imgfont"src={item.darkImage} alt="" />
+                          <img src={item.darkImage} alt="" />
                         )}
                         <Split>
                           <a
@@ -116,17 +67,8 @@ const Clients = ({ theme }) => {
           </div>
         </div>
       </div>
-      <style jsx>{`
-        .imgfont{
-          /* Add any custom styling for the larger images here */
-          // max-width: 100%;
-          height: 100px;
-          width: 1500px; /* Adjust this value as needed for your design */
-        }
-      `}</style>
     </section>
   );
 };
 
 export default Clients;
-
