@@ -227,9 +227,6 @@ __webpack_require__.d(__webpack_exports__, {
   "Z": () => (/* binding */ navbar)
 });
 
-// EXTERNAL MODULE: external "styled-jsx/style"
-var style_ = __webpack_require__(9816);
-var style_default = /*#__PURE__*/__webpack_require__.n(style_);
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(6689);
 // EXTERNAL MODULE: ./node_modules/next/link.js
@@ -271,39 +268,39 @@ var jsx_runtime_ = __webpack_require__(997);
 
 
 
-
 const Navbar = ({
   lr,
   nr,
   theme
 }) => {
-  return /*#__PURE__*/(0,jsx_runtime_.jsxs)("nav", {
+  return /*#__PURE__*/jsx_runtime_.jsx("nav", {
     ref: nr,
-    className: "jsx-4152230273" + " " + `navbar navbar-expand-lg change ${theme === 'themeL' ? 'light' : ''}`,
-    children: [/*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
-      className: "jsx-4152230273" + " " + "container",
+    className: `navbar navbar-expand-lg change ${theme === 'themeL' ? 'light' : ''}`,
+    children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
+      className: "container",
       children: [/*#__PURE__*/jsx_runtime_.jsx(next_link["default"], {
         href: "/homepage/home/",
         children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-          className: "jsx-4152230273" + " " + "logo",
+          className: "logo",
           children: theme ? theme === 'themeL' ? /*#__PURE__*/jsx_runtime_.jsx("img", {
+            className: "img-log",
             ref: lr,
             src: app/* darkLogo */.Q1,
-            alt: "logo",
-            className: "jsx-4152230273" + " " + "img-log"
+            alt: "logo"
           }) : /*#__PURE__*/jsx_runtime_.jsx("img", {
+            className: "img-log",
             ref: lr,
             src: app/* lightLogo */.E8,
-            alt: "logo",
-            className: "jsx-4152230273" + " " + "img-log"
+            alt: "logo"
           }) : /*#__PURE__*/jsx_runtime_.jsx("img", {
+            className: "img-log",
             ref: lr,
             src: app/* lightLogo */.E8,
-            alt: "logo",
-            className: "jsx-4152230273" + " " + "img-log"
+            alt: "logo"
           })
         })
       }), /*#__PURE__*/jsx_runtime_.jsx("button", {
+        className: "navbar-toggler",
         type: "button",
         onClick: handleMobileDropdown,
         "data-toggle": "collapse",
@@ -311,69 +308,68 @@ const Navbar = ({
         "aria-controls": "navbarSupportedContent",
         "aria-expanded": "false",
         "aria-label": "Toggle navigation",
-        className: "jsx-4152230273" + " " + "navbar-toggler",
         children: /*#__PURE__*/jsx_runtime_.jsx("span", {
-          className: "jsx-4152230273" + " " + "icon-bar",
+          className: "icon-bar",
           children: /*#__PURE__*/jsx_runtime_.jsx("i", {
-            className: "jsx-4152230273" + " " + "fas fa-bars"
+            className: "fas fa-bars"
           })
         })
       }), /*#__PURE__*/jsx_runtime_.jsx("div", {
+        className: "collapse navbar-collapse",
         id: "navbarSupportedContent",
-        className: "jsx-4152230273" + " " + "collapse navbar-collapse",
         children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("ul", {
-          className: "jsx-4152230273" + " " + "navbar-nav ml-auto",
+          className: "navbar-nav ml-auto",
           children: [/*#__PURE__*/jsx_runtime_.jsx("li", {
-            className: "jsx-4152230273" + " " + "nav-item",
+            className: "nav-item",
             children: /*#__PURE__*/jsx_runtime_.jsx(next_link["default"], {
               href: `/homepage/home`,
               children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                className: "jsx-4152230273" + " " + "nav-link",
+                className: "nav-link",
                 children: "Home"
               })
             })
           }), /*#__PURE__*/jsx_runtime_.jsx("li", {
-            className: "jsx-4152230273" + " " + "nav-item",
+            className: "nav-item",
             children: /*#__PURE__*/jsx_runtime_.jsx(next_link["default"], {
               href: `/about/about`,
               children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                className: "jsx-4152230273" + " " + "nav-link",
+                className: "nav-link",
                 children: "About"
               })
             })
           }), /*#__PURE__*/jsx_runtime_.jsx("li", {
-            className: "jsx-4152230273" + " " + "nav-item",
+            className: "nav-item",
             children: /*#__PURE__*/jsx_runtime_.jsx(next_link["default"], {
               href: `/blog/blog`,
               children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                className: "jsx-4152230273" + " " + "nav-link",
+                className: "nav-link",
                 children: "Blog"
               })
             })
           }), /*#__PURE__*/jsx_runtime_.jsx("li", {
-            className: "jsx-4152230273" + " " + "nav-item",
+            className: "nav-item",
             children: /*#__PURE__*/jsx_runtime_.jsx(next_link["default"], {
               href: `/career/careers`,
               children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                className: "jsx-4152230273" + " " + "nav-link",
+                className: "nav-link",
                 children: "Careers"
               })
             })
           }), /*#__PURE__*/jsx_runtime_.jsx("li", {
-            className: "jsx-4152230273" + " " + "nav-item",
+            className: "nav-item",
             children: /*#__PURE__*/jsx_runtime_.jsx(next_link["default"], {
               href: `/contact/contact`,
               children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                className: "jsx-4152230273" + " " + "nav-link",
+                className: "nav-link",
                 children: "Contact"
               })
             })
           }), /*#__PURE__*/jsx_runtime_.jsx("li", {
-            className: "jsx-4152230273" + " " + "nav-item BACK",
+            className: "nav-item BACK",
             children: /*#__PURE__*/jsx_runtime_.jsx(next_link["default"], {
               href: `/get-quotation/getquote`,
               children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                className: "jsx-4152230273" + " " + "nav-link success-button",
+                className: "nav-link success-button",
                 children: /*#__PURE__*/jsx_runtime_.jsx((Button_default()), {
                   variant: "success",
                   className: "nav-button",
@@ -384,10 +380,7 @@ const Navbar = ({
           })]
         })
       })]
-    }), /*#__PURE__*/jsx_runtime_.jsx((style_default()), {
-      id: "4152230273",
-      children: []
-    })]
+    })
   });
 };
 

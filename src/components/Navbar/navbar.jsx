@@ -97,11 +97,6 @@ const Navbar = ({ lr, nr, theme }) => {
         </div>
       </div>
 
-      <style jsx>{`
-      
-
-     
-      `}</style>
     </nav>
   );
 };

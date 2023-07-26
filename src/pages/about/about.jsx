@@ -1,4 +1,3 @@
-
 import React from "react";
 import Navbar from "../../components/Navbar/navbar";
 import Services from "../../components/Services/services";
@@ -11,13 +10,11 @@ import DarkTheme from "../../layouts/Dark";
 import Team from "../../components/Team/team";
 import MinimalArea from "../../components/Minimal-Area/minimal-area";
 
-const Contact = () => {
+const About = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
   React.useEffect(() => {
-    document.querySelector("body").classList.add("contact-page");
-
     var navbar = navbarRef.current,
       logo = logoRef.current;
     if (window.pageYOffset > 300) {
@@ -32,26 +29,22 @@ const Contact = () => {
         navbar.classList.remove("nav-scroll");
       }
     });
-    return () => {
-      document.querySelector("body").classList.remove("contact-page");
-    };
   }, [navbarRef]);
-
   return (
     <DarkTheme>
-    <Navbar nr={navbarRef} lr={logoRef} from="about-dark" />
-    <PagesHeader />
-    <AboutIntro />
-    <Services style="4item" />
-    {/* <VideoWithTestimonials /> */}
-    {/* <SkillsCircle from="aboutPage" /> */}
-    <Team />
-    <MinimalArea />
-    <Clients theme="dark" />
-    <CallToAction />
-    <Footer />
-  </DarkTheme>
+      <Navbar nr={navbarRef} lr={logoRef} from="about-dark" />
+      <PagesHeader />
+      <AboutIntro />
+      <Services style="4item" />
+      {/* <VideoWithTestimonials /> */}
+      {/* <SkillsCircle from="aboutPage" /> */}
+      <Team />
+      <MinimalArea />
+      <Clients theme="dark" />
+      <CallToAction />
+      <Footer />
+    </DarkTheme>
   );
 };
 
-export default Contact;
+export default About;
