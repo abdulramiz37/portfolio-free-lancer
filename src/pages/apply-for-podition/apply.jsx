@@ -79,7 +79,7 @@ const Contact = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="form md-mb50">
-                <h2 className="fw-700 color-font mb-20">Thank You for Believing in Groovy</h2>
+                <h2 className="fw-700 color-font mb-20">Thank You for Believing in MACnet</h2>
                 <p>We highly respect your time and so, we are presenting simple forms with lesser but important fields to capture your thoughts. Your complete and transparent information will Help Us Help You Better.</p>
 
                 {successMessage && <div className="success-message">{successMessage}</div>}

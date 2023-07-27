@@ -326,11 +326,12 @@ const Contact = () => {
             padding: 10px;
           }
 
-          .toggle-button,
-          .toggle-button-apply {
+          .toggle-button{
             right: 12%;
           }
-
+          .toggle-button-apply {
+            right: 22%;
+          }
           .large {
             font-size: 16px; /* Updated text size for the large job title in mobile view */
           }

@@ -173,6 +173,9 @@ span:hover {
   -webkit-text-fill-color: transparent;
 }
 
+.emoji{
+  -webkit-text-fill-color: #ded3d3;
+}
 .back-color {
   background: -webkit-gradient(
     linear,
@@ -360,7 +363,14 @@ span:hover {
 .inline {
   display: inline-block;
 }
-
+.img-box{
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
+.img-foot{
+  width: min-content;
+  height: 100px;
+}
 .valign {
   display: -webkit-box;
   display: -ms-flexbox;

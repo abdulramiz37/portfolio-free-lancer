@@ -94,6 +94,7 @@ const Footer = ({
                     href: "/blog-details/blog-details-dark",
                     children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("a", {
                       children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("img", {
+                        className: "img-foot",
                         src: "/img/blog/1.jpg",
                         alt: ""
                       })
@@ -125,6 +126,7 @@ const Footer = ({
                     href: "/blog-details/blog-details-dark",
                     children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("a", {
                       children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("img", {
+                        className: "img-foot",
                         src: "/img/blog/2.jpg",
                         alt: ""
                       })

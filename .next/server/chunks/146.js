@@ -506,6 +506,7 @@ const Blogs2 = () => {
             children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("div", {
               className: "img valign",
               children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("img", {
+                className: "img-box",
                 src: "/img/blog/1.jpg",
                 alt: ""
               })
@@ -551,6 +552,7 @@ const Blogs2 = () => {
             children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("div", {
               className: "img valign",
               children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("img", {
+                className: "img-box",
                 src: "/img/blog/2.jpg",
                 alt: ""
               })
@@ -596,6 +598,7 @@ const Blogs2 = () => {
             children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("div", {
               className: "img valign",
               children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("img", {
+                className: "img-box",
                 src: "/img/blog/3.jpg",
                 alt: ""
               })
@@ -691,19 +694,21 @@ const Blogs4 = () => {
   const navigationPrevRef = react__WEBPACK_IMPORTED_MODULE_0___default().useRef(null);
   const navigationNextRef = react__WEBPACK_IMPORTED_MODULE_0___default().useRef(null);
   const paginationRef = react__WEBPACK_IMPORTED_MODULE_0___default().useRef(null);
+  const styles = {
+    spacer: {
+      height: "100px"
+    }
+  };
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("section", {
     className: "blog-crv sub-bg",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
       className: "container sec-head  text-center",
-      children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx("h5", {
-        className: "wow fadeIn",
-        "data-wow-delay": ".5s"
+      children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx("div", {
+        style: styles.spacer
       }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx("h1", {
         className: "wow color-font",
         "data-wow-delay": ".5s",
         children: "Read Our Latest Blogs"
-      }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx("p", {
-        children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat imperdiet turpis, ut tincidunt ipsum. Ut dictum bibendum Quisque tempus volutpat laoreet. Vivamus facilisis vehicula lobortis. Fusce eu libero dignissim, sagittis lorem non, molestie enim. Duis urna purus, efficitur viverra pulvinar id, vulputate id quam. Calvin Quade Aarushi Masih Store Owner"
       })]
     }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx("h2", {
       style: {

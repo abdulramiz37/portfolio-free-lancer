@@ -31,24 +31,23 @@ const Blogs4 = () => {
   const navigationPrevRef = React.useRef(null);
   const navigationNextRef = React.useRef(null);
   const paginationRef = React.useRef(null);
+  const styles = {
+    spacer: {
+      height: "100px",
+    }
+  
+  };
 
   return (
     <section className="blog-crv sub-bg">
       
       <div className="container sec-head  text-center">
-              <h5 className="wow fadeIn" data-wow-delay=".5s"></h5>
            
+      <div style={styles.spacer}></div>
             
               <h1 className="wow color-font" data-wow-delay=".5s">Read Our Latest Blogs</h1>
          
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat imperdiet turpis, ut tincidunt ipsum. Ut dictum bibendum
-Quisque tempus volutpat laoreet. Vivamus facilisis vehicula lobortis. Fusce eu libero dignissim, sagittis lorem non, molestie enim. Duis urna purus, efficitur viverra pulvinar id, vulputate id quam.
 
-Calvin Quade
-Aarushi Masih
-Store Owner
-
-</p>
             </div>
       <h2 style={{ display: "none" }}>&nbsp;</h2>
       <div className="stories">

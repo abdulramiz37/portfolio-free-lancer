@@ -48,7 +48,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <div className="img">
                     <Link href="/blog-details/blog-details-dark">
                       <a>
-                        <img src="/img/blog/1.jpg" alt="" />
+                        <img className="img-foot" src="/img/blog/1.jpg" alt="" />
                       </a>
                     </Link>
                   </div>
@@ -71,7 +71,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <div className="img">
                     <Link href="/blog-details/blog-details-dark">
                       <a>
-                        <img src="/img/blog/2.jpg" alt="" />
+                        <img className="img-foot" src="/img/blog/2.jpg" alt="" />
                       </a>
                     </Link>
                   </div>

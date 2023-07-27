@@ -171,9 +171,12 @@ const Clients = ({
               className: "wow fadeIn",
               "data-wow-delay": ".5s",
               children: "OUR CLIENTS"
-            }), /*#__PURE__*/jsx_runtime_.jsx("h3", {
+            }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("h3", {
               className: "wow mb-20 color-font",
-              children: "Supportive \uD83D\uDE42 Partners"
+              children: ["Supportive ", /*#__PURE__*/jsx_runtime_.jsx("span", {
+                className: "emoji",
+                children: "\uD83D\uDE42"
+              }), " Partners"]
             }), /*#__PURE__*/jsx_runtime_.jsx("p", {
               children: "Our area of practice is quite wide: design, graphics, branding, development."
             })]
@@ -231,7 +234,7 @@ __webpack_require__.d(__webpack_exports__, {
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(6689);
 ;// CONCATENATED MODULE: ./src/data/sections/features.json
-const features_namespaceObject = JSON.parse('[{"id":1,"icon":"pe-7s-paint-bucket","title":"Wwb Development","content":"We always provide people a complete solution focused of any business."},{"id":2,"icon":"pe-7s-phone","title":"Software Development","content":"We always provide people a complete solution focused of any business."},{"id":3,"icon":"Android Development","title":"Social Media Marketing","content":"We always provide people a complete solution focused of any business."},{"id":4,"icon":"pe-7s-diskette","title":"UI/UX Design","content":"We always provide people a complete solution focused of any business."}]');
+const features_namespaceObject = JSON.parse('[{"id":1,"icon":"pe-7s-paint-bucket","title":"Web Development","content":"We always provide people a complete solution focused of any business."},{"id":2,"icon":"pe-7s-phone","title":"Software Development","content":"We always provide people a complete solution focused of any business."},{"id":3,"icon":"pe-7s-cup","title":"Social Media Marketing","content":"We always provide people a complete solution focused of any business."},{"id":4,"icon":"pe-7s-diskette","title":"UI/UX Design","content":"We always provide people a complete solution focused of any business."}]');
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
 ;// CONCATENATED MODULE: ./src/components/Services/services.jsx
