@@ -18,7 +18,7 @@ const Intro2 = ({ sliderRef }) => {
                 that can help you achieve your business goals
               </p>
               <Link
-                href={`/about/about-dark`}
+                href={`/about/about`}
               >
                 <a className="butn bord curve mt-30">
                   <span>About Us</span>

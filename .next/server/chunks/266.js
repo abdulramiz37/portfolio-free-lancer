@@ -90,7 +90,7 @@ const CallToAction = ({
         }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("div", {
           className: "col-md-4 col-lg-3 valign",
           children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx(next_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
-            href: `/contact/contact-dark`,
+            href: `/contact/contact`,
             children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("a", {
               className: "butn bord curve wow fadeInUp",
               "data-wow-delay": ".5s",
@@ -110,7 +110,7 @@ const CallToAction = ({
         }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("div", {
           className: "col-md-4 col-lg-3 valign",
           children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx(next_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
-            href: `/contact/contact-getquote`,
+            href: `/get-quotation/getquote`,
             children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("a", {
               className: "butn bord curve wow fadeInUp",
               "data-wow-delay": ".5s",

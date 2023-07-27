@@ -424,7 +424,7 @@ const Intro2 = ({
             }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("p", {
               children: "We are a team of designers who specialize in developing websites and apps that can help you achieve your business goals"
             }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx(next_link__WEBPACK_IMPORTED_MODULE_1__["default"], {
-              href: `/about/about-dark`,
+              href: `/about/about`,
               children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("a", {
                 className: "butn bord curve mt-30",
                 children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {

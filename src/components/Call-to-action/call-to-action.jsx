@@ -26,7 +26,7 @@ const CallToAction = ({ img }) => {
           </div>
 
           <div className="col-md-4 col-lg-3 valign">
-            <Link href={`/contact/contact-dark`}>
+            <Link href={`/contact/contact`}>
               <a className="butn bord curve wow fadeInUp"
                data-wow-delay=".5s"
                >
@@ -49,7 +49,7 @@ const CallToAction = ({ img }) => {
           <div className="col-md-4 col-lg-3 valign">
          
             
-            <Link href={`/contact/contact-getquote`}>
+            <Link href={`/get-quotation/getquote`}>
               <a
                 className="butn bord curve wow fadeInUp"
                 data-wow-delay=".5s"

@@ -5,9 +5,9 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/AuEvkPwbh3ok1HZWndCh8/_buildManifest.js",
-    "static/AuEvkPwbh3ok1HZWndCh8/_ssgManifest.js",
-    "static/AuEvkPwbh3ok1HZWndCh8/_middlewareManifest.js"
+    "static/ZiqkxeIYT09iaKstjUwvA/_buildManifest.js",
+    "static/ZiqkxeIYT09iaKstjUwvA/_ssgManifest.js",
+    "static/ZiqkxeIYT09iaKstjUwvA/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
@@ -16,8 +16,8 @@
       "static/chunks/main-638a2051cc1e15d8.js",
       "static/chunks/709-217289307fd55960.js",
       "static/chunks/478-4f7de40f55ecc001.js",
-      "static/chunks/392-2aab4015ac14a6d0.js",
-      "static/chunks/826-cb61b7d98fc891e1.js",
+      "static/chunks/392-87e268a25efacd72.js",
+      "static/chunks/826-8ad232a3c7989364.js",
       "static/css/6cb7b8afb994620c.css",
       "static/chunks/pages/index-4e77dd428be74463.js"
     ],
@@ -45,7 +45,7 @@
       "static/chunks/framework-91d7f78b5b4003c8.js",
       "static/chunks/main-638a2051cc1e15d8.js",
       "static/chunks/709-217289307fd55960.js",
-      "static/chunks/392-2aab4015ac14a6d0.js",
+      "static/chunks/392-87e268a25efacd72.js",
       "static/chunks/pages/about/about-3ac172428b00f03c.js"
     ],
     "/apply-for-podition/apply": [
@@ -73,7 +73,7 @@
       "static/chunks/framework-91d7f78b5b4003c8.js",
       "static/chunks/main-638a2051cc1e15d8.js",
       "static/chunks/387-95ba037aabad472b.js",
-      "static/chunks/pages/contact/contact-5a75dc60863225e7.js"
+      "static/chunks/pages/contact/contact-544b45ccf71a9a0f.js"
     ],
     "/get-quotation/getquote": [
       "static/chunks/webpack-93e7728b14a0d4fe.js",
@@ -87,8 +87,8 @@
       "static/chunks/main-638a2051cc1e15d8.js",
       "static/chunks/709-217289307fd55960.js",
       "static/chunks/478-4f7de40f55ecc001.js",
-      "static/chunks/392-2aab4015ac14a6d0.js",
-      "static/chunks/826-cb61b7d98fc891e1.js",
+      "static/chunks/392-87e268a25efacd72.js",
+      "static/chunks/826-8ad232a3c7989364.js",
       "static/css/6cb7b8afb994620c.css",
       "static/chunks/pages/homepage/home-b3226d2582c4af07.js"
     ]
