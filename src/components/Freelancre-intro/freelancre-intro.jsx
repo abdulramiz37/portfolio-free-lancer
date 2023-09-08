@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Typewriter from "typewriter-effect";
+// import Typewriter from "typewriter-effect";
 
 const FreelancreIntro = () => {
   return (
@@ -20,21 +20,18 @@ const FreelancreIntro = () => {
                   style={{ fontSize: "35px", lineHeight: "49px" }}
                   className="cd-words-wrapper"
                 >
-                  <Typewriter
+                  {/* <Typewriter
                     options={{
-                      wrapperClassName: "color-font fw-400",
-                      strings: [
-                        " Thank you for choosing MacNET Software!",
-                        
-                      ],
+                      wrapperClassName: "color-font fw-600",
+                   
                       autoStart: true,
                       loop: true,
                     }}
                     loop={true}
                     onInit={(typewriter) => {
                       typewriter;
-                    }}
-                  />
+                    }} */}
+                  {/* /> */}
                 </span>
               </h5>
             </div>

@@ -363,10 +363,7 @@ span:hover {
 .inline {
   display: inline-block;
 }
-.img-box{
-  width: -webkit-fill-available;
-  height: -webkit-fill-available;
-}
+
 .img-foot{
   width: min-content;
   height: 100px;

@@ -49,7 +49,7 @@ const Footer = ({
                   children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("h6", {
                     children: "Officeal Address"
                   }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("p", {
-                    children: "Momin Wad, Opposite Pankaj Society , Pji Road Nadiad , Gujrat , India - 387002"
+                    children: "Momin Wad, Opposite Pankaj Society , Pji Road Nadiad , Gujarat , India - 387002"
                   })]
                 })]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("li", {
@@ -200,11 +200,11 @@ const Footer = ({
             }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("div", {
               className: "copy-right",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
-                children: ["\xA9 2022, Vie Template. Made with passion by", /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx(next_link__WEBPACK_IMPORTED_MODULE_1__["default"], {
+                children: ["\xA9 2022, Copyright \xA9", /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx(next_link__WEBPACK_IMPORTED_MODULE_1__["default"], {
                   href: "https://themeforest.net/user/themescamp/portfolio",
                   children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("a", {
                     target: "_blank",
-                    children: "Abdul Ramiz"
+                    children: "MacNET"
                   })
                 }), "."]
               })

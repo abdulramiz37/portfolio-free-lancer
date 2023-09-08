@@ -18,7 +18,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
                     <h6>Officeal Address</h6>
-                    <p>Momin Wad, Opposite Pankaj Society , Pji Road Nadiad , Gujrat , India - 387002</p>
+                    <p>Momin Wad, Opposite Pankaj Society , Pji Road Nadiad , Gujarat , India - 387002</p>
                   </div>
                 </li>
                 <li>
@@ -120,12 +120,12 @@ const Footer = ({ hideBGCOLOR }) => {
               </div>
               <div className="copy-right">
                 <p>
-                  © 2022, Vie Template. Made with passion by
+                  © 2022, Copyright &copy; 
                   <Link
                     href="https://themeforest.net/user/themescamp/portfolio"
                     
                   >
-                    <a target="_blank">Abdul Ramiz</a>
+                    <a target="_blank">MacNET</a>
                   </Link>
                   .
                 </p>

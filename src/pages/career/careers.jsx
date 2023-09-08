@@ -90,7 +90,12 @@ const Contact = () => {
       <Navbar nr={navbarRef} lr={logoRef} />
 
       <div style={styles.spacer}></div>
-
+      <div className="sec-head  text-center">
+          
+              <h3 className="wow color-font">
+             Join Our Creative Team
+                  </h3>
+            </div>
       <div style={styles.mainContent}>
         <table className="content-table">
           <tbody>

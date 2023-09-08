@@ -4,6 +4,8 @@
   "/_document": "pages/_document.js",
   "/about/about": "pages/about/about.html",
   "/apply-for-podition/apply": "pages/apply-for-podition/apply.html",
+  "/blog-details/blog-det": "pages/blog-details/blog-det.html",
+  "/blog-details/blog-details-dark": "pages/blog-details/blog-details-dark.html",
   "/blog/blog": "pages/blog/blog.html",
   "/career/careers": "pages/career/careers.html",
   "/contact/contact": "pages/contact/contact.html",
