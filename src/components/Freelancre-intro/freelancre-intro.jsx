@@ -1,10 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-// import Typewriter from "typewriter-effect";
+import Typewriter from "typewriter-effect";
 
 const FreelancreIntro = () => {
   return (
+  
     <header className="freelancre valign">
+             <div className="line bottom left"></div>
       <div className="container">
         <div className="row">
           <div className="col-lg-4">
@@ -15,7 +17,7 @@ const FreelancreIntro = () => {
           <div className="col-lg-8 valign">
             <div className="cont">
               <h5 className="cd-headline clip">
-                Hello, My name is Ayaz Momin Welcome to MacNET Software! We are tech enthusiasts, driven by innovation. Our cutting-edge solutions empower businesses and individuals, simplifying tasks and enhancing productivity. As the Founder & CEO, I invite you to join us on this exciting journey of endless possibilities.
+                Hello, My name is Abdul Ramiz Welcome to My Portfolio! I am a dedicated tech enthusiast, fueled by a fervor for innovation. My expertise in developing cutting-edge solutions empowers businesses and individuals, streamlining tasks and supercharging productivity. I invite your company to consider hiring me, confident that I can contribute significantly to your team and its goals.
                 <span
                   style={{ fontSize: "35px", lineHeight: "49px" }}
                   className="cd-words-wrapper"
@@ -43,7 +45,7 @@ const FreelancreIntro = () => {
             <ul className="flex">
               <li className="flex">
                 <div className="numb valign">
-                  <h3>12</h3>
+                  <h3>2</h3>
                 </div>
                 <div className="text valign">
                   <p>
@@ -54,11 +56,11 @@ const FreelancreIntro = () => {
 
               <li className="flex">
                 <div className="numb valign">
-                  <h3>521</h3>
+                  <h3>100</h3>
                 </div>
                 <div className="text valign">
                   <p>
-                    Projects Completed <br /> In 19 Countries
+                    Projects Completed <br /> In  Countries
                   </p>
                 </div>
               </li>
@@ -69,7 +71,7 @@ const FreelancreIntro = () => {
                     <div className="text valign">
                       <div className="full-width">
                         <p>Get In Touch</p>
-                        <h6>gethelp@macnet.co.in</h6>
+                        <h6>abdulramiz007@gmail.com</h6>
                       </div>
                     </div>
                     <div className="mail-icon">

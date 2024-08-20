@@ -10,18 +10,17 @@ const Intro2 = ({ sliderRef }) => {
           <div className="col-lg-6 valign">
             <div className="cont md-mb50">
               <div className="sub-title mb-5">
-                <h6>Gear up your business</h6>
+                <h6>Hiii... </h6>
               </div>
-              <h1 className="mb-10 fw-600">With MacNET</h1>
+              <h1 className="mb-10 fw-600"> Abdul Ramiz</h1>
               <p>
-                We are a team of designers who specialize in developing websites and apps
-                that can help you achieve your business goals
+                A designer who specializes in crafting websites and applications with the primary objective of aiding your business in accomplishing its specific goals.
               </p>
               <Link
                 href={`/about/about`}
               >
                 <a className="butn bord curve mt-30">
-                  <span>About Us</span>
+                  <span>About Me</span>
                 </a>
               </Link>
             </div>

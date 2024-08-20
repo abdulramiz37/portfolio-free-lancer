@@ -17,22 +17,22 @@ const Footer = ({ hideBGCOLOR }) => {
                 <li>
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
-                    <h6>Officeal Address</h6>
-                    <p>Momin Wad, Opposite Pankaj Society , Pji Road Nadiad , Gujarat , India - 387002</p>
+                    <h6>Offical Address</h6>
+                    <p>Taj Nagar Old City Akola 444001</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p>gethelp@macnet.co.in</p>
+                    <p>abdulramiz007@gmail.com</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
                     <h6>Call Us</h6>
-                    <p>+919313318512</p>
+                    <p>+918087181636</p>
                   </div>
                 </li>
               </ul>
@@ -48,7 +48,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <div className="img">
                     <Link href="/blog-details/blog-details-dark">
                       <a>
-                        <img className="img-foot" src="/img/blog/1.jpg" alt="" />
+                        <img className="img" src="/img/blog/1.jpg" alt="" />
                       </a>
                     </Link>
                   </div>
@@ -71,7 +71,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <div className="img">
                     <Link href="/blog-details/blog-details-dark">
                       <a>
-                        <img className="img-foot" src="/img/blog/2.jpg" alt="" />
+                        <img className="img" src="/img/blog/2.jpg" alt="" />
                       </a>
                     </Link>
                   </div>
@@ -85,7 +85,7 @@ const Footer = ({ hideBGCOLOR }) => {
                     </Link>
                     <Link href="/blog/blog-dark">
                       <a>
-                        <span className="date">21 June 2022</span>
+                        <span className="date">28 Dec 2024</span>
                       </a>
                     </Link>
                   </div>
@@ -125,7 +125,7 @@ const Footer = ({ hideBGCOLOR }) => {
                     href="https://themeforest.net/user/themescamp/portfolio"
                     
                   >
-                    <a target="_blank">MacNET</a>
+                    <a target="_blank">A.R</a>
                   </Link>
                   .
                 </p>

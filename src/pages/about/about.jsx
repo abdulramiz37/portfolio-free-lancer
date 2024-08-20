@@ -9,14 +9,14 @@ import AboutIntro from "../../components/About-intro";
 import DarkTheme from "../../layouts/Dark";
 import Team from "../../components/Team/team";
 import MinimalArea from "../../components/Minimal-Area/minimal-area";
-
+import Works from '../../components/Works/works'
 const About = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
   React.useEffect(() => {
     var navbar = navbarRef.current,
-      logo = logoRef.current;
+    logo = logoRef.current;
     if (window.pageYOffset > 300) {
       navbar.classList.add("nav-scroll");
     } else {
@@ -33,14 +33,15 @@ const About = () => {
   return (
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} from="about-dark" />
-      <PagesHeader />
-      <AboutIntro />
-      <Services style="4item" />
+      {/* <PagesHeader /> */}
+
+    
       {/* <VideoWithTestimonials /> */}
       {/* <SkillsCircle from="aboutPage" /> */}
       <Team />
       <MinimalArea />
-      <Clients theme="dark" />
+      <AboutIntro />
+      <Works/>
       <CallToAction />
       <Footer />
     </DarkTheme>

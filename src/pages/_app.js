@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>MacNet</title>
+        <title>Welcome tO A.R City</title>
         <link rel="icon" href="/img/favicon.ico" />
       </Head>
       <Cursor />

@@ -74,6 +74,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 <a className="nav-link">Blog</a>
               </Link>
             </li>
+          
             <li className="nav-item">
               <Link href={`/career/careers`}>
                 <a className="nav-link">Careers</a>

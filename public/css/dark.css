@@ -85,6 +85,10 @@ img {
   width: 100%;
   height: auto;
 }
+#imaged {
+  width: inherit;
+  height: auto;
+}
 .img-log{
   width: 250%;
   height: auto;

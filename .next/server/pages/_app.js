@@ -224,7 +224,7 @@ function MyApp({
   return /*#__PURE__*/(0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
     children: [/*#__PURE__*/(0,jsx_runtime_.jsxs)((head_default()), {
       children: [/*#__PURE__*/jsx_runtime_.jsx("title", {
-        children: "MacNet"
+        children: "Welcome tO A.R City"
       }), /*#__PURE__*/jsx_runtime_.jsx("link", {
         rel: "icon",
         href: "/img/favicon.ico"

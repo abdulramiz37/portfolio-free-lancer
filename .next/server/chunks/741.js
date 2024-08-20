@@ -1,38 +1,7 @@
 "use strict";
-exports.id = 266;
-exports.ids = [266];
+exports.id = 741;
+exports.ids = [741];
 exports.modules = {
-
-/***/ 6025:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "$": () => (/* binding */ thumparallax),
-/* harmony export */   "D": () => (/* binding */ thumparallaxDown)
-/* harmony export */ });
-const thumparallax = () => {
-  var imageUp = document.getElementsByClassName("thumparallax");
-
-  if (imageUp) {
-    new simpleParallax(imageUp, {
-      delay: 1,
-      scale: 1.1
-    });
-  }
-};
-const thumparallaxDown = () => {
-  var imageDown = document.getElementsByClassName("thumparallax-down");
-
-  if (imageDown) {
-    new simpleParallax(imageDown, {
-      orientation: "down",
-      delay: 1,
-      scale: 1.1
-    });
-  }
-};
-
-/***/ }),
 
 /***/ 2786:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
@@ -130,20 +99,17 @@ const CallToAction = ({
 /***/ }),
 
 /***/ 6415:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ clients)
-});
+// UNUSED EXPORTS: default
 
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(6689);
 ;// CONCATENATED MODULE: ./src/data/sections/clients.json
-const clients_namespaceObject = JSON.parse('[{"id":1,"lightImage":"/img/clients/brands/light/01.png","darkImage":"/img/clients/brands/dark/01.png","url":"www.MacNET.com"},{"id":2,"lightImage":"/img/clients/brands/light/02.png","darkImage":"/img/clients/brands/dark/02.png","url":"www.MacNET.com"},{"id":3,"lightImage":"/img/clients/brands/light/03.png","darkImage":"/img/clients/brands/dark/03.png","url":"www.MacNET.com"},{"id":4,"lightImage":"/img/clients/brands/light/04.png","darkImage":"/img/clients/brands/dark/04.png","url":"www.MacNET.com"},{"id":5,"lightImage":"/img/clients/brands/light/05.png","darkImage":"/img/clients/brands/dark/05.png","url":"www.MacNET.com"},{"id":6,"lightImage":"/img/clients/brands/light/06.png","darkImage":"/img/clients/brands/dark/06.png","url":"www.MacNET.com"},{"id":7,"lightImage":"/img/clients/brands/light/07.png","darkImage":"/img/clients/brands/dark/07.png","url":"www.MacNET.com"}]');
+const clients_namespaceObject = [];
 // EXTERNAL MODULE: ./src/components/Split/index.jsx
-var Split = __webpack_require__(1514);
+var components_Split = __webpack_require__(1514);
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
 ;// CONCATENATED MODULE: ./src/components/Clients/clients.jsx
@@ -156,51 +122,51 @@ var jsx_runtime_ = __webpack_require__(997);
 const Clients = ({
   theme
 }) => {
-  const clientsToShow = clients_namespaceObject.slice(0, 7);
-  return /*#__PURE__*/jsx_runtime_.jsx("section", {
+  const clientsToShow = ClientsData.slice(0, 7);
+  return /*#__PURE__*/_jsx("section", {
     className: "clients section-padding",
-    children: /*#__PURE__*/jsx_runtime_.jsx("div", {
+    children: /*#__PURE__*/_jsx("div", {
       className: "container",
-      children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
+      children: /*#__PURE__*/_jsxs("div", {
         className: "row",
-        children: [/*#__PURE__*/jsx_runtime_.jsx("div", {
+        children: [/*#__PURE__*/_jsx("div", {
           className: "col-lg-4 valign md-mb50",
-          children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
+          children: /*#__PURE__*/_jsxs("div", {
             className: "sec-head mb-0",
-            children: [/*#__PURE__*/jsx_runtime_.jsx("h6", {
+            children: [/*#__PURE__*/_jsx("h6", {
               className: "wow fadeIn",
               "data-wow-delay": ".5s",
               children: "OUR CLIENTS"
-            }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("h3", {
+            }), /*#__PURE__*/_jsxs("h3", {
               className: "wow mb-20 color-font",
-              children: ["Supportive ", /*#__PURE__*/jsx_runtime_.jsx("span", {
+              children: ["Supportive ", /*#__PURE__*/_jsx("span", {
                 className: "emoji",
                 children: "\uD83D\uDE42"
               }), " Partners"]
-            }), /*#__PURE__*/jsx_runtime_.jsx("p", {
+            }), /*#__PURE__*/_jsx("p", {
               children: "Our area of practice is quite wide: design, graphics, branding, development."
             })]
           })
-        }), /*#__PURE__*/jsx_runtime_.jsx("div", {
+        }), /*#__PURE__*/_jsx("div", {
           className: "col-lg-8",
-          children: /*#__PURE__*/jsx_runtime_.jsx("div", {
-            children: /*#__PURE__*/jsx_runtime_.jsx("div", {
+          children: /*#__PURE__*/_jsx("div", {
+            children: /*#__PURE__*/_jsx("div", {
               className: "row bord",
-              children: clientsToShow.map(item => /*#__PURE__*/jsx_runtime_.jsx("div", {
+              children: clientsToShow.map(item => /*#__PURE__*/_jsx("div", {
                 className: "col-md-3 col-6 brands",
-                children: /*#__PURE__*/jsx_runtime_.jsx("div", {
+                children: /*#__PURE__*/_jsx("div", {
                   className: "item wow fadeIn",
                   "data-wow-delay": `${item.id == 1 ? ".3" : item.id == 2 ? ".6" : item.id == 3 ? ".8" : item.id == 4 ? ".3" : ""}s`,
-                  children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
+                  children: /*#__PURE__*/_jsxs("div", {
                     className: "img",
-                    children: [theme === "light" ? /*#__PURE__*/jsx_runtime_.jsx("img", {
+                    children: [theme === "light" ? /*#__PURE__*/_jsx("img", {
                       src: item.lightImage,
                       alt: ""
-                    }) : /*#__PURE__*/jsx_runtime_.jsx("img", {
+                    }) : /*#__PURE__*/_jsx("img", {
                       src: item.darkImage,
                       alt: ""
-                    }), /*#__PURE__*/jsx_runtime_.jsx(Split/* default */.Z, {
-                      children: /*#__PURE__*/jsx_runtime_.jsx("a", {
+                    }), /*#__PURE__*/_jsx(Split, {
+                      children: /*#__PURE__*/_jsx("a", {
                         href: "#0",
                         className: "link words chars splitting",
                         "data-splitting": true,
@@ -218,7 +184,7 @@ const Clients = ({
   });
 };
 
-/* harmony default export */ const clients = (Clients);
+/* harmony default export */ const clients = ((/* unused pure expression or super */ null && (Clients)));
 
 /***/ }),
 
@@ -260,14 +226,13 @@ const Services = ({
             className: "sec-head  text-center",
             children: [/*#__PURE__*/jsx_runtime_.jsx("h6", {
               className: "wow fadeIn",
-              "data-wow-delay": ".5s",
-              children: "WHAT WE OFFER"
+              "data-wow-delay": ".5s"
             }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("h3", {
               className: "wow color-font",
-              children: ["Our ", /*#__PURE__*/jsx_runtime_.jsx("span", {
+              children: ["MY ", /*#__PURE__*/jsx_runtime_.jsx("span", {
                 className: "emoji",
                 children: "\u2328\uFE0F"
-              }), " Services"]
+              }), " Work"]
             })]
           })
         })

@@ -47,9 +47,9 @@ const Footer = ({
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
                   className: "cont",
                   children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("h6", {
-                    children: "Officeal Address"
+                    children: "Offical Address"
                   }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("p", {
-                    children: "Momin Wad, Opposite Pankaj Society , Pji Road Nadiad , Gujarat , India - 387002"
+                    children: "Taj Nagar Old City Akola 444001"
                   })]
                 })]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("li", {
@@ -60,7 +60,7 @@ const Footer = ({
                   children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("h6", {
                     children: "Email Us"
                   }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("p", {
-                    children: "gethelp@macnet.co.in"
+                    children: "abdulramiz007@gmail.com"
                   })]
                 })]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("li", {
@@ -71,7 +71,7 @@ const Footer = ({
                   children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("h6", {
                     children: "Call Us"
                   }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("p", {
-                    children: "+919313318512"
+                    children: "+918087181636"
                   })]
                 })]
               })]
@@ -94,7 +94,7 @@ const Footer = ({
                     href: "/blog-details/blog-details-dark",
                     children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("a", {
                       children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("img", {
-                        className: "img-foot",
+                        className: "img",
                         src: "/img/blog/1.jpg",
                         alt: ""
                       })
@@ -126,7 +126,7 @@ const Footer = ({
                     href: "/blog-details/blog-details-dark",
                     children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("a", {
                       children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("img", {
-                        className: "img-foot",
+                        className: "img",
                         src: "/img/blog/2.jpg",
                         alt: ""
                       })
@@ -146,7 +146,7 @@ const Footer = ({
                     children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("a", {
                       children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("span", {
                         className: "date",
-                        children: "21 June 2022"
+                        children: "28 Dec 2024"
                       })
                     })
                   })]
@@ -204,7 +204,7 @@ const Footer = ({
                   href: "https://themeforest.net/user/themescamp/portfolio",
                   children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("a", {
                     target: "_blank",
-                    children: "MacNET"
+                    children: "A.R"
                   })
                 }), "."]
               })
